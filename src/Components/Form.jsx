@@ -180,7 +180,7 @@ const Form = () => {
           </FormControl>
         </GridItem>
       </SimpleGrid>
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex" , "fontWeight":"bolder" }}>
         <p> Amount:</p>
         <Input
           name="amount"
@@ -190,6 +190,7 @@ const Form = () => {
           type="text"
           color='blackAlpha.100'
           onChange={handelChange}
+          placeholder='payment'
         ></Input>
       </div>
       <Button  onClick={handelsubmit}  colorScheme="tomato" background="tomato" p="20px 60px">
