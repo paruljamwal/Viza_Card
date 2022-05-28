@@ -4,6 +4,7 @@ import calender from "../assets/calendar.png";
 import cal from "../assets/cal.png";
 import lock from "../assets/padlock.png";
 import card from "../assets/credit-card.png";
+import rupee from "../assets/rupee.png";
 import {
   FormControl,
   FormLabel,
@@ -44,7 +45,7 @@ const Form = () => {
   }
 
   return (
-    <VStack width="full" height="full" p={10} spacing={10} align="flex-start">
+    <VStack width="full" height="full" p={10} spacing={10} align="flex-start" marginTop='2px'>
       <p>Payment Details</p>
       <SimpleGrid columns={15} columnGap={3} rowGap={2}>
         <GridItem colSpan={15}>
@@ -181,14 +182,15 @@ const Form = () => {
         </GridItem>
       </SimpleGrid>
       <div style={{ display: "flex" , "fontWeight":"bolder" }}>
-        <p> Amount:</p>
+        <p> Amount:  </p><img src={rupee}    width="25px" height='2px'></img>
         <Input
           name="amount"
           variant="flushed"
           borderBottomColor="tomato"
           style={{ outline: "none" }}
           type="text"
-          color='blackAlpha'
+          fontSize='2xl'
+          color="rgb(246,66,91) !important"
           onChange={handelChange}
           placeholder='payment'
         ></Input>
