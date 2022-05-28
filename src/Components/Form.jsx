@@ -63,7 +63,7 @@ const Form = () => {
                   color='blackAlpha.100'
                   marginBottom="4"
                   variant="flushed"
-                  borderBottomColor="tomato"
+                  borderBottomColor="rgb(246,66,91)"
                   placeholder="Parul jamwal"
                   onChange={handelChange}
                   name="cname"
@@ -90,7 +90,7 @@ const Form = () => {
                   marginBottom="4"
                   variant="flushed"
                   type="number"
-                  borderBottomColor="tomato"
+                  borderBottomColor="rgb(246,66,91)"
                   placeholder="5432  6577  9812  3211"
                   onChange={handelChange}
                   name="cardnumber"
@@ -117,7 +117,7 @@ const Form = () => {
                   color='blackAlpha.100'
                   variant="flushed"
                   placeholder="08"
-                  borderBottomColor="tomato"
+                  borderBottomColor="rgb(246,66,91)"
                   onChange={handelChange}
                   name="emonth"
                 />
@@ -145,7 +145,7 @@ const Form = () => {
                   color='blackAlpha.100'
                   placeholder="3030"
                   type="number"
-                  borderBottomColor="tomato"
+                  borderBottomColor="rgb(246,66,91)"
                   onChange={handelChange}
                   name="eyear"
                 />
@@ -171,7 +171,7 @@ const Form = () => {
                   color='blackAlpha.100'
                   placeholder="145"
                   type="number"
-                  borderBottomColor="tomato"
+                  borderBottomColor="rgb(246,66,91)"
                   onChange={handelChange}
                   name="cvc"
                 />
@@ -188,12 +188,12 @@ const Form = () => {
           borderBottomColor="tomato"
           style={{ outline: "none" }}
           type="text"
-          color='blackAlpha.100'
+          color='blackAlpha'
           onChange={handelChange}
           placeholder='payment'
         ></Input>
       </div>
-      <Button  onClick={handelsubmit}  colorScheme="tomato" background="tomato" p="20px 60px">
+      <Button  onClick={handelsubmit}  colorScheme="rgb(246,66,91)" background="rgb(246,66,91)" p="20px 60px">
         PAY
       </Button>
     </VStack>

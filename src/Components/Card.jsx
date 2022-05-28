@@ -22,7 +22,7 @@ const {data}=useContext(AppContext)
     >
      <Container  width='100%' height='1000' position='relative' >
          <Box borderRadius='10' background='silver' h='250px' w='100%' position='absolute' left='35' top='59' > </Box>
-         <Box borderRadius='10' background='tomato'  h='250px' w='100%' position='absolute' left='0.5' top='10'  >
+         <Box borderRadius='10' background='rgb(246,66,91)'  h='250px' w='100%' position='absolute' left='0.5' top='10'  >
            <div >
 
          <img width='50px' style={{"marginLeft":'320px', "color":"whitesmoke"}}  src={logo}  alt='logo' />
